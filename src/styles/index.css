@@ -1,3 +1,37 @@
+input:checked ~ p.todo-text {
+  opacity: 0.5;
+  font-weight: 300;
+  font-style: italic;
+  gap: 0.5rem;
+  margin: 0.5rem;
+  text-decoration: line-through;
+}
+
+span.todo-text {
+  transition: opacity 0,5s ease-in-out;
+}
+
+/* .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .card p {
+    margin: 0;
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .card input[type='checkbox'] {
+    margin-right: 10px;
+  }
+  
+  .card button {
+    margin-left: 10px;
+  } */
+
 
 /* 
 
